@@ -28,12 +28,16 @@ working with `arrays`.
 4. Repeat as needed for further tests.
 5. Run `learn submit` when finished!
 
-The first test asks for an array called `drivers`, set a `const` to an
-initial value of `["Milo", "Otis", "Garfield"]`.
+Define 4 `const` called `append`, `prepend`, `removeLast` and `removeFirst` to
+an initial value of `["Milo", "Otis", "Garfield"]`. These are the `array`s that
+we're working with for each exercise.
 
 ## Practice Manipulating Arrays
 
-(rest of steps)
+1. Append the driver "Odie" to the end of `append`.
+2. Prepend the driver "Odie" to the beginning of `prepend`.
+3. Remove the _last_ driver from `removeLast`.
+4. Remove the _first_ driver from `removeFirst`.
 
 ## Conclusion
 
