@@ -2,14 +2,7 @@ const expect = chai.expect;
 
 describe('index.js', function () {
   describe('drivers arrays', function () {
-    it('they are assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
-      expect(append).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-      expect(prepend).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-      expect(removeLast).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-      expect(removeFirst).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
-    });
-
-    it('are declared with const', function () {
+    it('drivers arrays are declared with const', function () {
       expect(function () { append = []; }).to.throw(TypeError);
       expect(function () { prepend = []; }).to.throw(TypeError);
       expect(function () { removeLast = []; }).to.throw(TypeError);
