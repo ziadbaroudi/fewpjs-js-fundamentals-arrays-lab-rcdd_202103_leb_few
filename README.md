@@ -20,7 +20,7 @@ structures (like `pop()`, `push()`, `shift()`, and `unshift()`).
 
 Generally, it's good practice to avoid mutating a program's state whenever
 possible. However, for now, we're going to focus on the fundamentals of
-working with `arrays`.
+working with `Array`s.
 
 1. Run `learn`.
 2. Read the errors; vocalize what they're asking you to do.
@@ -28,9 +28,10 @@ working with `arrays`.
 4. Repeat as needed for further tests.
 5. Run `learn submit` when finished!
 
-Define 4 `const` called `append`, `prepend`, `removeLast` and `removeFirst` to
-an initial value of `["Milo", "Otis", "Garfield"]`. These are the `array`s that
-we're working with for each exercise.
+First, we're going to create four arrays of pets. Define 4 `const` called:
+`append`, `prepend`, `removeLast` and `removeFirst`, and set all to an initial
+value of `["Milo", "Otis", "Garfield"]`. These are the `array`s that we'll work
+with for each exercise.
 
 > **NOTE**: "Append" means "add to the end" and "prepend" means "add to the
 > beginning."
